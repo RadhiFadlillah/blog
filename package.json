@@ -11,6 +11,8 @@
 		"serve": "boom serve .",
 		"build": "boom build .",
 		"compile-less": "scripts/compile-less.sh",
+		"add-public-remote": "git remote add -f public https://github.com/RadhiFadlillah/radhifadlillah.github.io.git",
+		"add-subtree": "git subtree add --prefix public public master --squash",
 		"publish": "git subtree push --prefix public public master"
 	},
 	"devDependencies": {
