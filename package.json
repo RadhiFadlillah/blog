@@ -10,7 +10,8 @@
 	"scripts": {
 		"serve": "boom serve .",
 		"build": "boom build .",
-		"compile-less": "scripts/compile-less.sh"
+		"compile-less": "scripts/compile-less.sh",
+		"publish": "git subtree push --prefix public public master"
 	},
 	"devDependencies": {
 		"less": "^4.1.3",
